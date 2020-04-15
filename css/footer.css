@@ -1,0 +1,17 @@
+.footer {
+    background: black;
+    color: #eee;
+    height: 8vh;
+    width: 100%;
+}
+
+.footer__copyright {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: white;
+}
