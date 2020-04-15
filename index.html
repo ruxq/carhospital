@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <title>CarHospital</title>
+  <meta name="description" content="Zapraszamy do jednynego takiego warszatatu samochodowowego" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/main-banner.css" />
+  <link rel="stylesheet" href="css/container.css" />
+  <link rel="stylesheet" href="css/about-us.css" />
+  <link rel="stylesheet" href="css/main-navigation.css" />
+  <link rel="stylesheet" href="css/bookmark.css" />
+  <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+  <nav class="main-navigation">
+    <div class="main-navigation__inner">
+      <div class="main-navigation__logo">
+        <a href="#" class="main-navigation__logo-link">
+          <img src="/images/logo.png" alt="logo" class="main-navigation__logo-image" />
+          CarHospital
+        </a>
+      </div>
+      <ul class="main-navigation__menu js-main-navigation__menu">
+        <li class="main-navigation__menu-item">
+          <a href="#" class="main-navigation__link">Start</a>
+        </li>
+        <li class="main-navigation__menu-item">
+          <a href="#about-us" class="main-navigation__link">O nas</a>
+        </li>
+        <li class="main-navigation__menu-item">
+          <a href="#services" class="main-navigation__link">Usługi</a>
+        </li>
+        <li class="main-navigation__menu-item">
+          <a href="#gallery" class="main-navigation__link">Galeria</a>
+        </li>
+        <li class="main-navigation__menu-item">
+          <a href="#contact" class="main-navigation__link">Kontakt</a>
+        </li>
+      </ul>
+      <button class="main-navigation__mobile-button js-main-navigation__mobile-button">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </button>
+    </div>
+  </nav>
+  <script src="/js/main-navigation.js"></script>
+  <section class="main-banner">
+    <a href="#about-us" class="main-banner__button">Poznaj nas lepiej</a>
+  </section>
+  <div class="container" id="about-us">
+    <div class="about-us">
+      <div class="about-us__text">
+        <h3 class="about-us__header">
+          Nie jesteśmy tylko warsztatem samochowodym
+        </h3>
+        <p class="about-us__paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+          tempore? Laudantium fugiat quaerat, harum iusto corporis dolorem
+          culpa hic quod praesentium ipsam voluptatibus sint adipisci. Eum
+          eaque facilis alias reiciendis.
+        </p>
+        <p class="about-us__paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+          tempore? Laudantium fugiat quaerat, harum iusto corporis dolorem
+          culpa hic quod praesentium ipsam voluptatibus sint adipisci. Eum
+          eaque facilis alias reiciendis Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Velit consequuntur ut ab blanditiis
+          praesentium, magnam ipsam sunt quidem dicta aspernatur?
+        </p>
+      </div>
+      <img class="about-us__image" src="/images/about-us__image.jpg" alt="" height="640" />
+    </div>
+  </div>
+  <section class="bookmark bookmark-services" id="services">
+    <h2 class="bookmark__header"> Usługi </h2>
+    <p class="bookmark__description">Spójrz, jakie usługi możesz u nas wykonać</p>
+  </section>
+  <div class="container">
+    <section class="services">
+      <div class="services__column">
+        <div class="services__item">
+          <h3 class="services__header">Przegląd i kontrole</h3>
+          <img class="services__icon" src="/images/icons/loupe.svg">
+          <ul class="services__list">
+            <li class="services__list-item">
+              Montaż głośników i radia
+            </li>
+            <li class="services__list-item">
+              Montaż zestawu głośnomówiącego
+            </li>
+            <li class="services__list-item">
+              Aktualizacja map nawigacji
+            </li>
+            <li class="services__list-item">
+              Wygłuszenie samochodu
+            </li>
+          </ul>
+
+
+        </div>
+        <div class="services__item">
+          <h3 class="services__header">Serwis klimatyzacji</h3>
+          <img class="services__icon" src="/images/icons/snow.svg">
+          <ul class="services__list">
+            <li class="services__list-item">
+              Kompleksowa obsługa klimatyzacji
+            </li>
+            <li class="services__list-item">
+              Wymiana sprężarki klimatyzacji
+            </li>
+            <li class="services__list-item">
+              Wymiana chłodnicy klimatyzacji
+            </li>
+            <li class="services__list-item">
+              Ozonowanie klimatyzacji
+            </li>
+          </ul>
+
+
+        </div>
+        <div class="services__item">
+          <h3 class="services__header">Serwis opon</h3>
+          <img class="services__icon" src="/images/icons/tyre.svg">
+          <ul class="services__list">
+            <li class="services__list-item">
+              Montaż/demontaż opon i felg Off Road
+            </li>
+            <li class="services__list-item">
+              Przechowywanie opon
+            </li>
+            <li class="services__list-item">
+              Wyważanie kół
+            </li>
+            <li class="services__list-item">
+              Wymiana zaworków
+            </li>
+          </ul>
+
+
+        </div>
+      </div>
+      <div class="services__column">
+        <div class="services__item">
+          <h3 class="services__header">Elektryka</h3>
+          <img class="services__icon" src="/images/icons/electric-car.svg">
+          <ul class="services__list">
+            <li class="services__list-item">
+              Naprawa układów elektronicznych
+            </li>
+            <li class="services__list-item">
+              Montaż czujników odległości
+            </li>
+            <li class="services__list-item">
+              Weryfikacja instalacji elektrycznej
+            </li>
+            <li class="services__list-item">
+              Wymiana czujnika/przekaźnika
+            </li>
+          </ul>
+
+
+        </div>
+        <div class="services__item">
+          <h3 class="services__header">Szyby i lusterka</h3>
+          <img class="services__icon" src="/images/icons/windshield.svg">
+          <ul class="services__list">
+            <li class="services__list-item">
+              Hydrofobizacja szyb
+            </li>
+            <li class="services__list-item">
+              Przyciemnianie szyb
+            </li>
+            <li class="services__list-item">
+              Naprawa podgrzewania szyby przedniej / tylnej
+            </li>
+            <li class="services__list-item">
+              Naprawa pęknięć/odprysków szyb
+            </li>
+          </ul>
+
+
+        </div>
+        <div class="services__item">
+          <h3 class="services__header">Oświetlenie</h3>
+          <img class="services__icon" src="/images/icons/idea.svg">
+          <ul class="services__list">
+            <li class="services__list-item">
+              Regeneracja reflektorów
+            </li>
+            <li class="services__list-item">
+              Montaż reflektorów
+            </li>
+            <li class="services__list-item">
+              Regulacja oświetlenia
+            </li>
+            <li class="services__list-item">
+              Montaż paskó LED wewnątrz samochodu
+            </li>
+          </ul>
+
+
+        </div>
+
+      </div>
+      <div class="services__column">
+        <div class="services__item">
+          <h3 class="services__header">Blacharstwo i lakiernictwo</h3>
+          <img class="services__icon" src="/images/icons/construction.svg">
+          <ul class="services__list">
+            <li class="services__list-item">
+              Lakierowanie błotnika przedniego
+            </li>
+            <li class="services__list-item">
+              Lakierowanie dachu
+            </li>
+            <li class="services__list-item">
+              Naprawa pokrywy silnika
+            </li>
+            <li class="services__list-item">
+              Wymiana progu
+            </li>
+          </ul>
+
+
+        </div>
+        <div class="services__item">
+          <h3 class="services__header">Serwis LPG</h3>
+          <img class="services__icon" src="/images/icons/gas-station.svg">
+          <ul class="services__list">
+            <li class="services__list-item">
+              Legalizacja zbiornika LPG
+            </li>
+            <li class="services__list-item">
+              Wymiana zaworu LPG
+            </li>
+            <li class="services__list-item">
+              Wymiana filtra LPG
+            </li>
+            <li class="services__list-item">
+              Montaż instalacji LPG z homologacją
+            </li>
+          </ul>
+
+
+        </div>
+        <div class="services__item">
+          <h3 class="services__header">Tuning</h3>
+          <img class="services__icon" src="/images/icons/steering-wheel.svg">
+          <ul class="services__list">
+            <li class="services__list-item">
+              Instalacja podtlenku azotu
+            </li>
+            <li class="services__list-item">
+              Montaż opon wyczynowych
+            </li>
+            <li class="services__list-item">
+              Montaż regulatora ciśnienia paliwa
+            </li>
+            <li class="services__list-item">
+              Montaż sprężyn obniżających
+            </li>
+          </ul>
+
+
+        </div>
+        <div class="services__item">
+          <h3 class="services__header">Car Audio</h3>
+          <img class="services__icon" src="/images/icons/car-radio.svg">
+          <ul class="services__list">
+            <li class="services__list-item">
+              Montaż głośników i radia
+            </li>
+            <li class="services__list-item">
+              Montaż zestawu głośnomówiącego
+            </li>
+            <li class="services__list-item">
+              Aktualizacja map nawigacji
+            </li>
+            <li class="services__list-item">
+              Wygłuszenie samochodu
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <section class="bookmark bookmark-gallery" id="gallery">
+    <h2 class="bookmark__header"> Galeria </h2>
+    <p class="bookmark__description">Zobacz naszych pracowników w akcji</p>
+  </section>
+
+  <div class="container">
+    <ul class="gallery">
+
+      <li class="gallery__list-item">
+        <div class="gallery__aspect-ratio">
+          <img class="gallery__image" src="/images/gallery/gallery_image (1).jpg">
+        </div>
+      </li>
+
+      <li class="gallery__list-item">
+        <div class="gallery__aspect-ratio">
+          <img class="gallery__image" src="/images/gallery/gallery_image (2).jpg">
+        </div>
+      </li>
+
+      <li class="gallery__list-item">
+        <div class="gallery__aspect-ratio">
+          <img class="gallery__image" src="/images/gallery/gallery_image (3).jpg">
+        </div>
+      </li>
+
+      <li class="gallery__list-item">
+        <div class="gallery__aspect-ratio">
+          <img class="gallery__image" src="/images/gallery/gallery_image (4).jpg">
+        </div>
+      </li>
+
+      <li class="gallery__list-item">
+        <div class="gallery__aspect-ratio">
+          <img class="gallery__image" src="/images/gallery/gallery_image (5).jpg">
+        </div>
+      </li>
+
+      <li class="gallery__list-item">
+        <div class="gallery__aspect-ratio">
+          <img class="gallery__image" src="/images/gallery/gallery_image (6).jpg">
+        </div>
+      </li>
+
+      <li class="gallery__list-item">
+        <div class="gallery__aspect-ratio">
+          <img class="gallery__image" src="/images/gallery/gallery_image (7).jpg">
+        </div>
+      </li>
+
+
+      <li class="gallery__list-item">
+        <div class="gallery__aspect-ratio">
+          <img class="gallery__image" src="/images/gallery/gallery_image (8).jpg">
+        </div>
+      </li>
+
+      <li class="gallery__list-item">
+        <div class="gallery__aspect-ratio">
+          <img class="gallery__image" src="/images/gallery/gallery_image (9).jpg">
+        </div>
+      </li>
+
+      <li class="gallery__list-item">
+        <div class="gallery__aspect-ratio">
+          <img class="gallery__image" src="/images/gallery/gallery_image (10).jpg">
+        </div>
+      </li>
+
+      <li class="gallery__list-item">
+        <div class="gallery__aspect-ratio">
+          <img class="gallery__image" src="/images/gallery/gallery_image (11).jpg">
+        </div>
+      </li>
+
+      <li class="gallery__list-item">
+        <div class="gallery__aspect-ratio">
+          <img class="gallery__image" src="/images/gallery/gallery_image (12).jpg">
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+  <section class="bookmark bookmark-contact" id="contact">
+    <h2 class="bookmark__header"> Kontakt </h2>
+    <p class="bookmark__description">Skontaktuj się z nami </p>
+  </section>
+
+  <form class="contact-form">
+    <section class="container container--smaller">
+      <div class="contact-from__info">
+        <div class="contact-form__info-item">
+          <i class="fas fa-envelope contact-form__info-icon"></i>
+          <a href="mailto:kontakt@carhospital.pl" class="contact-form__info-link">kontakt@carhospital.pl</a>
+        </div>
+        <div class="contact-form__info-item">
+          <i class="fas fa-phone contact-form__info-icon"></i>
+          <a href="tel:3214569871" class="contact-form__info-link">321-456-9871</a>
+        </div>
+      </div>
+      <p class="contact-form__description">
+        Jeśli nie znalazłeś na stronie informacji, których potrzebujesz<br>
+        lub chcesz umówić wizytę wypełnij i wyślij formularz albo zadzwoń do nas.<br>
+        Odpowiemy na każde twoje pytanie.
+      </p>
+      <div class="contact-form__fields">
+        <input name="name" class="contact-form__field" required placeholder="Imię i nazwisko">
+        <input name="email" type="email" class="contact-form__field" required placeholder="Adres e-mail">
+        <textarea placeholder="Treść wiadmości" class="contact-form__field contact-form__field--full-row" name="content"
+          required rows="10"></textarea>
+      </div>
+      <button class="contact-form__submit-button">Wyślij</button>
+    </section>
+  </form>
+
+
+</body>
+
+</html>

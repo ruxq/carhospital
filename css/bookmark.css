@@ -1,0 +1,56 @@
+.bookmark {
+
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 8vh 5vw;
+}
+
+.bookmark-services {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(/images/background/services-background-—-smaller-compressor.jpg);
+}
+
+.bookmark-gallery {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(/images/background/gallery-background-—-smaller-compressor.jpg);
+}
+
+.bookmark-contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(/images/background/contact-background--smaller-compressor.jpg);
+}
+
+.bookmark__header {
+    font-size: 120px;
+    text-transform: uppercase;
+    margin: 0;
+    mix-blend-mode: screen;
+}
+
+@media(max-width:1199px) {
+    .bookmark__header {
+        font-size: 10vw;
+    }
+}
+
+.bookmark__header::after,
+.bookmark__header::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f013";
+}
+
+.bookmark__description {
+    font-size: 24px;
+    margin: 0;
+
+}
+
+@media(max-width:767px) {
+    .bookmark__description {
+        font-size: 16px;
+    }
+}
